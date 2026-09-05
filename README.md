@@ -63,5 +63,5 @@ Add dashboard screenshots here after uploading them to GitHub.
 Business problem framing, data cleaning, exploratory data analysis, SQL, KPI development, Power BI dashboarding, stakeholder-focused reporting, and data-driven recommendations.
 
 ## Author
-Sayani Chatterjee
+Sayani Chatterjee,
 VIT Bhopal University
