@@ -1,0 +1,67 @@
+# Hospital Operations & Patient Flow Analytics
+
+## Project Overview
+This project analyzes 5,000 simulated emergency-department visit records to identify patient-flow bottlenecks, compare operational performance across hospitals and regions, and examine the relationship between wait time and patient satisfaction.
+
+The project was designed from the perspective of a Junior Business Analyst supporting hospital operations and patient-experience stakeholders.
+
+## Business Problem
+Emergency departments must balance patient demand, staff availability, specialist coverage, and service quality. Long waiting times can reduce patient satisfaction and may indicate operational bottlenecks.
+
+This analysis helps stakeholders answer:
+- Which hospitals, regions, time periods, and urgency levels experience the highest patient volumes and longest waits?
+- Which process stage contributes most to overall waiting time?
+- How do staffing conditions and specialist availability relate to wait time and patient satisfaction?
+- Which areas should management investigate first?
+
+## Dataset
+- Source: Simulated emergency-department visit dataset
+- Records: 5,000 visits
+- Key fields: hospital, region, visit date, urgency level, staffing ratio, specialist availability, process-stage times, total wait time, patient outcome, and patient satisfaction
+- Note: This project uses simulated data for academic portfolio purposes. It is not based on real patient records and is not intended for clinical decision-making.
+
+## Tools Used
+- Microsoft Excel: Initial data-quality checks and preprocessing
+- MySQL Workbench: SQL-based exploratory analysis and KPI queries
+- Microsoft Power BI: Interactive dashboard, KPI cards, filters, and visual storytelling
+- GitHub: Project documentation and version control
+
+## Dashboard Pages
+### 1. Executive Overview
+Tracks total visits, average total wait time, average satisfaction, medical-professional delay share, hospital visit volume, wait time by urgency level, time-of-day patterns, and process-stage delays.
+
+### 2. Operational Drivers & Patient Experience
+Analyzes specialist availability, nurse-to-patient ratio, urgency-level performance, patient outcomes, hospital comparisons, and wait-time/satisfaction patterns.
+
+## Key Findings
+- The average total recorded wait time was 81.92 minutes.
+- Waiting to see a medical professional was the largest process-stage delay, averaging 45.39 minutes.
+- The medical-professional stage represented approximately 55.4% of average total waiting time.
+- Registration and triage averaged 11.70 minutes and 24.83 minutes, respectively.
+- Hospital, urgency, time-of-day, specialist availability, and nurse-to-patient-ratio views support targeted investigation of operational conditions associated with longer waits and lower satisfaction.
+
+## Recommendations
+1. Prioritize investigation of provider-consultation workflow, availability, and scheduling because the medical-professional stage accounts for the largest share of waiting time.
+2. Review staffing and specialist coverage in high-wait periods, urgency groups, and hospitals identified through the dashboard.
+3. Monitor wait time and satisfaction together when evaluating process improvements.
+4. Validate the dashboard findings using real operational data and stakeholder input before any implementation.
+
+## Repository Structure
+```text
+data/raw/                  Raw simulated dataset
+data/processed/            Cleaned Excel file
+sql/                       MySQL KPI and analysis queries
+powerbi/                   Power BI dashboard file
+visuals/                   Dashboard screenshots
+README.md                  Project documentation
+```
+
+## Dashboard Preview
+Add dashboard screenshots here after uploading them to GitHub.
+
+## Skills Demonstrated
+Business problem framing, data cleaning, exploratory data analysis, SQL, KPI development, Power BI dashboarding, stakeholder-focused reporting, and data-driven recommendations.
+
+## Author
+Sayani Chatterjee
+VIT Bhopal University
